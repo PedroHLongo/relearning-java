@@ -1,6 +1,11 @@
 package oop.inheritance;
 
 public class Ferrari extends Car{
+
+    public Ferrari(final int maxSpeed) {
+        super(maxSpeed);
+    }
+
     @Override
     public void speedUp() {
         this.setSpeed(this.getSpeed() + 15);

@@ -2,9 +2,11 @@ package oop.inheritance;
 
 public class Car {
     private Integer speed;
-
-    public Car() {
+    private final Integer MAX_SPEED;
+    
+    public Car(final int maxSpeed) {
         this.speed = 0;
+        this.MAX_SPEED = maxSpeed;
     }
 
     public void setSpeed(final Integer speed) {
@@ -16,7 +18,11 @@ public class Car {
     }
 
     public void speedUp() {
-        this.speed += 5;
+        if (this.speed + 5 > this.MAX_SPEED) {
+            System.out.println("Already at maximum speed.");
+        } else {
+            this.speed += 5;
+        }
     }
 
     public void speedDown() {
