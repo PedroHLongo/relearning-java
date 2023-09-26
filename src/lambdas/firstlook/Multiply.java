@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.firstlook;
 
 public class Multiply implements Calculus{
     @Override

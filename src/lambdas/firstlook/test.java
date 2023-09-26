@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.firstlook;
 
 public class test {
     public static void main(String[] args) {
