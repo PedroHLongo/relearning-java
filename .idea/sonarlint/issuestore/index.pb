@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-W
-'src/classAndMethods/tests/DataTest.java,8/0/803fe42de492ca421cec3cb7e68c51c4261f536d
 ?
 java-course.iml,e/0/e0d3e07a4bc1325b77126bc0722ec4da1beffb43
 :
