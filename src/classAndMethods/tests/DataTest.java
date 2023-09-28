@@ -8,7 +8,7 @@ public class DataTest {
         date.day = 17;
         date.month = 7;
         date.year = 2023;
-        System.out.println("a");
+        System.out.println("aa");
 
         System.out.printf("Day: %d, Month: %d, Year: %d", date.day, date.month, date.year);
     }
