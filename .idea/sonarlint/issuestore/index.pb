@@ -18,3 +18,9 @@ V
 &src/classAndMethods/tests/Testing.java,9/6/9677bf215076adb925c251065cd1bfd154158c5c
 W
 'src/classAndMethods/tests/Testing2.java,c/0/c05d1b46127b51cf7b7f318627a41a0314eee308
+M
+src/classAndMethods/Data.java,7/3/7386cc418bd2b40383fb68dd86a7cfcbb52c4d79
+N
+src/classAndMethods/teste.java,6/2/620f4fb1bdbe9ac6be67d6502ffe3c960f63e2c6
+W
+'src/classAndMethods/tests/RequestA.java,0/b/0b5eecd56fbcb65a1a12da630e542e1fc34a3a7a
