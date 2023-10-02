@@ -2,7 +2,7 @@ package lambdas.functionalinterfaces.predicate;
 
 import java.util.function.Predicate;
 
-public class Predicado {
+public class PredicateExample {
     public static void main(String[] args) {
         Predicate<Product> isExpensive =
                 prd -> (prd.getPrice() * (1 - prd.getDiscount())) >= 750;
