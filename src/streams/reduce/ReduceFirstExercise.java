@@ -22,10 +22,10 @@ public class ReduceFirstExercise {
         BinaryOperator<Double> sumGradesFromApproved = (grade, sum) -> grade + sum;
 
 
-        students.stream()
+        System.out.println(students.stream()
                 .filter(approved)
                 .map(getGrades)
-                .reduce(sumGradesFromApproved);
+                .reduce(sumGradesFromApproved));
 
     }
 }
