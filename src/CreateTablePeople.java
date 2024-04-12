@@ -6,12 +6,12 @@ public class CreateTablePeople {
     public static void main(String[] args) throws SQLException {
         final Connection connection = ConnectionFactory.getConnection();
 
-        String sql = "CREATE TABLE IF NOT EXISTS people (" +
+        final String sql = "CREATE TABLE IF NOT EXISTS people (" +
                 "code INT AUTO_INCREMENT PRIMARY KEY," +
                 "name VARCHAR(80) NOT NULL" +
                 ")";
 
-        Statement statement = connection.createStatement();
+        final Statement statement = connection.createStatement();
         statement.execute(sql);
 
         System.out.println("Success on creating table!");

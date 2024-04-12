@@ -4,14 +4,14 @@ import java.sql.Statement;
 
 public class CreateDatabase {
     public static void main(String[] args) throws Exception{
-        String connectionUrl = "jdbc:mysql://localhost:3306?verifyServerCertificate=false&useSSL=true";
-        String user = "root";
-        String password = "xxx";
+        final String connectionUrl = "jdbc:mysql://localhost:3306?verifyServerCertificate=false&useSSL=true";
+        final String user = "root";
+        final String password = "xxx";
 
-        Connection connection = DriverManager
+        final Connection connection = DriverManager
                 .getConnection(connectionUrl, user, password);
 
-        Statement statement = connection.createStatement();
+        final Statement statement = connection.createStatement();
         statement.execute("CREATE DATABASE IF NOT EXISTS java_course");
 
         System.out.println("Success on creating database!");
