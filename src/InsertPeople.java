@@ -14,11 +14,13 @@ public class InsertPeople {
         final Connection connection = ConnectionFactory.getConnection();
 
         final String sql = "INSERT INTO people (name) VALUES (?)";
-        PreparedStatement statement = connection.prepareStatement(sql);
+        final PreparedStatement statement = connection.prepareStatement(sql);
         statement.setString(1, name);
 
         statement.execute();
 
         sc.close();
+        statement.close();
+        connection.close();
     }
 }

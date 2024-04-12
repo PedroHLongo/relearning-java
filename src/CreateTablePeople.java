@@ -15,6 +15,8 @@ public class CreateTablePeople {
         statement.execute(sql);
 
         System.out.println("Success on creating table!");
+
+        statement.close();
         connection.close();
     }
 }

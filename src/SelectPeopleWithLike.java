@@ -30,6 +30,7 @@ public class SelectPeopleWithLike {
 
         people.forEach(System.out::println);
 
+        sc.close();
         preparedStatement.close();
         connection.close();
     }

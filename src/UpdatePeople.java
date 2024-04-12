@@ -47,6 +47,7 @@ public class UpdatePeople {
 
         updatePreparedStatement.execute();
 
+        sc.close();
         updatePreparedStatement.close();
         connection.close();
     }
