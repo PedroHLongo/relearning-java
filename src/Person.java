@@ -2,6 +2,8 @@ public class Person {
     private Integer code;
     private String name;
 
+    public Person() {}
+
     public Person(Integer code, String name) {
         this.code = code;
         this.name = name;
