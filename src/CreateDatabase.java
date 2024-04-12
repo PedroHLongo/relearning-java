@@ -14,7 +14,7 @@ public class CreateDatabase {
         Statement statement = connection.createStatement();
         statement.execute("CREATE DATABASE IF NOT EXISTS java_course");
 
-        System.out.println("Database creation success!");
+        System.out.println("Success on creating database!");
         connection.close();
     }
 }
