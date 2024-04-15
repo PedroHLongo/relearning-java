@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class UpdateUserService1 {
+public class UpdateUserService {
     public static void main(String[] args) {
         final EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jpa-class");
         final EntityManager entityManager = entityManagerFactory.createEntityManager();
