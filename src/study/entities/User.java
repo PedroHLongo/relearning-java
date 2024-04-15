@@ -43,6 +43,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "Name: " + this.name + " Email: " + this.email;
+        return "Id: " + this.id + " Name: " + this.name + " Email: " + this.email;
     }
 }
