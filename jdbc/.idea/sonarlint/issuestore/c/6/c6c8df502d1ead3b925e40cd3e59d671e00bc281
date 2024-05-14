@@ -1,0 +1,9 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "text".(ºØÖ·ÿÿÿÿÿ
+Z
+java:S1854"?Remove this useless assignment to local variable "doubleValue".(½‘š·ÿÿÿÿÿ
+K
+java:S1481"0Remove this unused "doubleValue" local variable.(½‘š·ÿÿÿÿÿ
+D
+java:S1481")Remove this unused "text" local variable.(ºØÖ·ÿÿÿÿÿ
