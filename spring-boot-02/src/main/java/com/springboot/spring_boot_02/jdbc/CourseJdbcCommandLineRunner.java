@@ -22,5 +22,7 @@ public class CourseJdbcCommandLineRunner implements CommandLineRunner {
         System.out.println("Insert ok");
 
         repository.delete(springBootCourse);
+
+        System.out.println(repository.findById(2L));
     }
 }
