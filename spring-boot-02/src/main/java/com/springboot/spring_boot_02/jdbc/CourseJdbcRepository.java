@@ -1,5 +1,6 @@
 package com.springboot.spring_boot_02.jdbc;
 
+import com.springboot.spring_boot_02.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -11,10 +12,18 @@ public class CourseJdbcRepository {
 
     final private static String INSERT_QUERY = """ 
         insert into course (id, name, author)
-        values(1, 'Learn Spring boot', 'in28minutes')
+        values(?, ?, ?);
     """;
 
-    public void insert() {
-        template.update(INSERT_QUERY);
+    final private static String DELETE_QUERY = """
+            delete from course where id = ?;
+            """;
+
+    public void insert(final Course course) {
+        template.update(INSERT_QUERY, course.getId(), course.getName(), course.getAuthor());
+    }
+
+    public void delete(final Course course) {
+        template.update(DELETE_QUERY, course.getId());
     }
 }
