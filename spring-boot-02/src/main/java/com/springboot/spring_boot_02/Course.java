@@ -1,7 +1,14 @@
 package com.springboot.spring_boot_02;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
+    @Id
     private Long id;
+
     private String name;
     private String author;
 
