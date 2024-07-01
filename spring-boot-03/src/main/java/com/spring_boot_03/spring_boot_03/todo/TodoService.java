@@ -1,9 +1,12 @@
 package com.spring_boot_03.spring_boot_03.todo;
 
+import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class TodoService {
     private static List<Todo> todos = new ArrayList<>();
     static {
