@@ -4,5 +4,7 @@
     </head>
     <body>
         <div>Welcome to the login page!</div>
+        <div>Your name is: ${name}</div>
+        <div>Your password is: ${password}</div>
     </body>
 </html>
