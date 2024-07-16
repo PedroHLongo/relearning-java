@@ -24,4 +24,16 @@ public class TodoController {
         modelMap.put("todos", todos);
         return "listTodos";
     }
+
+
+    @RequestMapping(value= "/add-todo", method = RequestMethod.GET)
+    public String showNewTodoPage() {
+        return "todo";
+    }
+
+
+    @RequestMapping(value= "/add-todo", method = RequestMethod.POST)
+    public String addNewTodo() {
+        return "redirect:todos";
+    }
 }
