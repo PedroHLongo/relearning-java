@@ -3,7 +3,9 @@
         <title>Welcome page</title>
     </head>
     <body>
-        <div>Welcome to the login page!</div>
-        <div>Your login is: ${username}</div>
+        <div class="container">
+            <h1>Welcome ${username}!</h1>
+            <a href="todos">Manage your todos</a>
+        </div>
     </body>
 </html>
