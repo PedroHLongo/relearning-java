@@ -3,7 +3,9 @@
         <title>Welcome page</title>
     </head>
     <body>
-        <div>Welcome ${username}!</div>
-        <div><a href="todos">Manage your todos</a></div>
+        <div class="container">
+            <h1>Welcome ${username}!</h1>
+            <a href="todos">Manage your todos</a>
+        </div>
     </body>
 </html>
